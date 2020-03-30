@@ -4,9 +4,10 @@ body{
 }
 header {
 	font-size: 20px;
-	background-color: black;
+	background-color: #ccccc;
 	color: #cccccc;
 	height: 75px;
+	font-display: helvetica
 }
 #topbar{
 	width:75%;
@@ -15,10 +16,12 @@ header {
 }
 nav {
 	float: right;
+	font-display: helvetica
 }
 nav li{
 	display: inline;
 	padding-right: 30px;
+	font-display: helvetica
 }
 .logo {
 	float:left;
@@ -40,8 +43,9 @@ nav li{
 	float:left;
 }
 .blog-heading{
-	font-size: 36px;
+	font-size: 20px;
 	margin-bottom:20px;
+	font-family: Helvetica
 }
 .sidebar{
 	float:right;
@@ -49,6 +53,17 @@ nav li{
 footer{	
 	color: white;	
 	margin-left: auto ;    
+	margin-right: auto ;	
+	font-size:16px;	
+	min-height: 50px;	
+	padding:20px;	
+	background-color: black;	
+}
+#footer{	
+	width:75%;
+	margin-left: auto ;    
+	margin-right: auto ;
+}t: auto ;    
 	margin-right: auto ;	
 	font-size:16px;	
 	min-height: 50px;	
