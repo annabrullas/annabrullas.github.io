@@ -1,20 +1,28 @@
 body{
-	margin:;
-	background-color: #efefef;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 120px;
+	background-color: #fff9ee;
 }
 header {
 	font-size: 20px;
 	background-color: #ccccc;
 	color: #cccccc;
 	height: 75px;
+	margin-left: 30px;
 }
 	
 head {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
+	margin-top: 40px;
+	margin-left: 80px;
+	margin-right: 80px;
+	color: cadetblue;
 }
 #topbar{
 	width:75%;
+	margin-top: 40px;
 	margin-left: auto ;
 	margin-right: auto ;
 	font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +35,9 @@ nav {
 nav li{
 	display: inline;
 	padding-right: 30px;
-	font-family: Arial, Helvetica, sans-serif
+	font-family: Arial, Helvetica, sans-serif;
+	color: cadetblue;
+	margin-top: 10px;
 	
 }
 .logo {
@@ -46,7 +56,8 @@ nav li{
 }
 
 .blog-post{
-	margin-top:20px;
+	margin-top:120px;
+	margin-left: -100px;
 	float:left;
 }
 .blog-heading{
